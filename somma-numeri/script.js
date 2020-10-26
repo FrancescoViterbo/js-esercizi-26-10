@@ -10,12 +10,12 @@ while (numeri.length < 5) {
 var totale = 0;
 
 for (i = 0; i < numeri.length; i++) {
-    totale = totale + parseInt(numeri[i]);
+    totale = totale + parseFloat(numeri[i]);
 }
 
 // var i = 0; 
 // while (i < numeri.length) {
-//     totale = totale + parseInt(numeri[i]);
+//     totale = totale + parseFloat(numeri[i]);
 //     i++;
 // }
 
