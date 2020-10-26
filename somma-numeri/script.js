@@ -13,4 +13,10 @@ for (i = 0; i < numeri.length; i++) {
     totale = totale + parseInt(numeri[i]);
 }
 
+// var i = 0; 
+// while (i < numeri.length) {
+//     totale = totale + parseInt(numeri[i]);
+//     i++;
+// }
+
 sommaNumeri.innerHTML = totale;
